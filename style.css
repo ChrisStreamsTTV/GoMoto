@@ -1,0 +1,114 @@
+:root{
+	--color-negro:#282d33;
+	--color-naranja: #f7b614;
+	--color-titulos:#2a2a32;
+	--color-contenido: #AAA;
+}
+body{
+	color:var(--color-contenido);
+}
+
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+#hero {
+  background-image: url('fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #AAA; 
+  font-family: 'Catamaran', sans-serif;
+}
+
+.title {
+  color: #2a2a32; 
+  font-size: 3rem;
+}
+
+.btn {
+  background-color: #f7b614;
+  color: #282d33;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.moto-img {
+  max-width: 100%;
+}
+
+#hero {
+  background-image: url('img/slider-glob.png');
+ 
+}
+
+.section-title {
+  text-align: center;
+  color: black;
+}
+
+.owl-carousel .item {
+  text-align: center;
+}
+
+.btn-yellow {
+  background-color: yellow;
+ 
+}
+
+#sit-at-home {
+  background-color: #f0f0f0; 
+}
+
+.content {
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
+
+.title {
+  color: white;
+}
+
+.subtitle {
+  color: yellow;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn-yellow {
+  background-color: yellow;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
